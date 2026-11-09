@@ -1,0 +1,7 @@
+{
+    "ClickToEnterMindSurveySimulatedCombatPage": {
+        "doc": "EN: same tab bar as 进入模拟作战页面-模拟作战通用. Full-width OCR merges 'Supply Missions Combat Simulations' into one box, so read only the last tab's area.",
+        "expected": "^Combat Simulations$",
+        "roi": [1010, 15, 260, 55]
+    }
+}

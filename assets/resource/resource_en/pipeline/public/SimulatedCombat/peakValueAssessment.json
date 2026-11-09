@@ -1,0 +1,7 @@
+{
+    "peakValueAssessmentPageEnteredForFirstTime": {
+        "doc": "EN: the popup title 'Periodic Returns' is wider than the CN title, so the CN roi cuts it. Widened around the same title.",
+        "expected": "Periodic Returns",
+        "roi": [480, 60, 320, 60]
+    }
+}

@@ -35,17 +35,11 @@
     "closeCommissionRewardResultPage": {
         "expected": "anywhere to exit"
     },
-    "enterJourneyWitnessTab": {
-        "expected": "Journey Witness"
-    },
     "claimJourneyWitnessReward": {
         "expected": "Claim All"
     },
     "closeClaimJourneyWitnessRewardResultPage": {
         "expected": "anywhere to exit"
-    },
-    "enterJourneyMileStoneTab": {
-        "expected": "Journey Milestone"
     },
     "claimJourneyMileStoneReward": {
         "expected": "Claim All"
@@ -98,6 +92,14 @@
     },
     "claimResultClosed": {
         "expected": "Personal Information"
+    },
+    "切换到动态标签页": {
+        "expected": [
+            "^Status$"
+        ]
+    },
+    "确认进入动态祝福页": {
+        "expected": "Number of"
     },
     "enterMindSurveySelfDisciplinePreparation": {
         "expected": "^Auto$"
@@ -245,6 +247,7 @@
     "DispatchCenter-dispatchFinishReward": {
         "expected": [
             "Claim",
+            "Claim All",
             "Claim All"
         ]
     },
@@ -322,14 +325,24 @@
     "combatExerciseWeeklySettlement": {
         "expected": [
             "anywhere to exit",
+            "anywhere to continue",
             "anywhere on the screen to continue"
         ]
+    },
+    "领取周期奖励-实兵演习": {
+        "expected": "^Rewards$"
     },
     "已打开周期奖励-实兵演习": {
         "expected": "Ranking Rewards"
     },
+    "领取段位奖励-实兵演习": {
+        "expected": "Claim All"
+    },
     "切换到参与奖励标签页-实兵演习": {
         "expected": "Participation Reward"
+    },
+    "领取参与奖励-实兵演习": {
+        "expected": "Claim All"
     },
     "开始峰值推定任务": {
         "focus": {
@@ -337,13 +350,16 @@
         }
     },
     "clickEnterPeakValueAssessmentPage": {
-        "expected": "Peak Value Assessment"
-    },
-    "peakValueAssessmentPageEnteredForFirstTime": {
-        "expected": "Periodic Returns"
+        "expected": "Peak Value"
     },
     "主动打开周期报酬-峰值推定": {
-        "expected": "^Periodic Returns$"
+        "expected": "^Periodic$"
+    },
+    "发现新周期-极限峰值（峰值推定界面）": {
+        "expected": [
+            "New Season Begins",
+            "New Season"
+        ]
     },
     "进入常规峰值": {
         "expected": "Standard Peak"
@@ -366,31 +382,11 @@
         }
     },
     "进入峰值推定-极限峰值": {
-        "expected": "Peak Value Assessment"
-    },
-    "进入极限峰值标签页-极限峰值": {
-        "expected": [
-            "Extreme Peak"
-        ]
+        "expected": "Peak Value"
     },
     "已进入极限峰值标签页-极限峰值": {
         "expected": [
             "Frenzied Wave"
-        ]
-    },
-    "进入子群1-极限峰值": {
-        "expected": [
-            "Horde 1"
-        ]
-    },
-    "进入子群2-极限峰值": {
-        "expected": [
-            "Horde 2"
-        ]
-    },
-    "进入子群3-极限峰值": {
-        "expected": [
-            "Horde 3"
         ]
     },
     "已进入子群-极限峰值": {
@@ -398,13 +394,14 @@
             "Enemy Units"
         ]
     },
-    "开始作战-极限峰值": {
-        "expected": [
-            "Start Combat"
-        ]
+    "发现新周期-极限峰值": {
+        "expected": "New Season Begins"
     },
     "发现周期报酬-极限峰值": {
         "expected": "Periodic Returns"
+    },
+    "领取周期报酬-极限峰值": {
+        "expected": "Claim All"
     },
     "关闭周期报酬奖励领取结果页-极限峰值": {
         "expected": "anywhere to exit"
@@ -476,6 +473,7 @@
     "点击空白处关闭-通用": {
         "expected": [
             "anywhere to exit",
+            "anywhere to continue",
             "anywhere on the screen to continue"
         ]
     },
@@ -488,6 +486,11 @@
     "确认跳过动画-通用": {
         "expected": [
             "Would you like to skip?"
+        ]
+    },
+    "一键领取-通用": {
+        "expected": [
+            "Claim All"
         ]
     },
     "指挥官等级提升-通用": {
@@ -997,23 +1000,15 @@
     "enterMindSurveyTask": {
         "expected": "^Campaign"
     },
-    "ClickToEnterMindSurveySimulatedCombatPage": {
-        "expected": "^Combat Simulations$"
-    },
     "已进入模拟作战页面-模拟作战通用": {
         "expected": [
             "Combat Exercise",
-            "Peak Value Assessment"
+            "Peak Value"
         ]
     },
     "打开战役推进-模拟作战通用": {
         "expected": [
             "^Campaign"
-        ]
-    },
-    "进入模拟作战页面-模拟作战通用": {
-        "expected": [
-            "^Combat Simulations$"
         ]
     },
     "StartGame_clickStart": {

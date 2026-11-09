@@ -8,5 +8,19 @@
             100,
             62
         ]
+    },
+    "waitingForClaimPageLoading": {
+        "doc": "EN: the count after 'Daily Objectives' (e.g. 10/13) sits further right than in CN because the label is longer, so the CN roi lands on the label text.",
+        "roi": [560, 108, 90, 34]
+    },
+    "enterJourneyWitnessTab": {
+        "doc": "EN: the tab bar OCRs as one box ('Regular Commissions Journey Witness Journey Milestone'), so read only this tab's area to click the right tab.",
+        "expected": "Journey Witness",
+        "roi": [868, 20, 185, 55]
+    },
+    "enterJourneyMileStoneTab": {
+        "doc": "EN: same merged tab bar as enterJourneyWitnessTab; without its own roi the click lands on Journey Witness.",
+        "expected": "Journey Milestone",
+        "roi": [1052, 20, 215, 55]
     }
 }

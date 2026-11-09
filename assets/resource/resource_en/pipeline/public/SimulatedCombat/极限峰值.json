@@ -1,0 +1,30 @@
+{
+    "进入极限峰值标签页-极限峰值": {
+        "doc": "EN: after a weekly reset the 'New Season Begins' popup opens when the Extreme Peak tab is tapped, not when Peak Value Assessment opens. Close it first, then check which tab is showing.",
+        "expected": ["Extreme Peak"],
+        "next": [
+            "[JumpBack]发现新周期-极限峰值",
+            "已进入极限峰值标签页-极限峰值",
+            "未进入极限峰值标签页-极限峰值"
+        ]
+    },
+    "进入子群1-极限峰值": {
+        "doc": "EN: the horde page takes 2-3 s to open on the global server. Without the delay the 'Enemy Units' check runs on the tab page, misses, and the horde is skipped.",
+        "expected": ["Horde 1"],
+        "post_delay": 2000
+    },
+    "进入子群2-极限峰值": {
+        "doc": "EN: see 进入子群1-极限峰值.",
+        "expected": ["Horde 2"],
+        "post_delay": 2000
+    },
+    "进入子群3-极限峰值": {
+        "doc": "EN: see 进入子群1-极限峰值.",
+        "expected": ["Horde 3"],
+        "post_delay": 2000
+    },
+    "开始作战-极限峰值": {
+        "doc": "EN: the horde page button reads 'Start Battle' (Boss Fight's reads 'Start Combat').",
+        "expected": ["^Start (Battle|Combat)$"]
+    }
+}

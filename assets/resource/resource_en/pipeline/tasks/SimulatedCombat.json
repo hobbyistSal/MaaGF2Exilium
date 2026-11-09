@@ -1,0 +1,7 @@
+{
+    "进入模拟作战页面-模拟作战通用": {
+        "doc": "EN: OCR on the full tab bar reads 'Supply Missions Combat Simulations' as one box while the Campaign tab is selected, so ^Combat Simulations$ never matches. Reading only the last tab's area gives 'Combat Simulations' on its own.",
+        "expected": ["^Combat Simulations$"],
+        "roi": [1010, 15, 260, 55]
+    }
+}
