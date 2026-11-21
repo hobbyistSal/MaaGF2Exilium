@@ -84,6 +84,9 @@
     "closePassClaimResultPage": {
         "expected": "anywhere to exit"
     },
+    "开启远航巡录": {
+        "expected": "Begin Voyage Logs"
+    },
     "personalInformationPageEntered": {
         "expected": "Personal Information"
     },
